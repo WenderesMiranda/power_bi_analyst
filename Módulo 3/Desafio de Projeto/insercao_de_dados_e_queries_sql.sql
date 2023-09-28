@@ -17,9 +17,9 @@ insert into dependent values (333445555, 'Alice', 'F', '1986-04-05', 'Daughter')
                              (123456789, 'Alice', 'F', '1988-12-30', 'Daughter'),
                              (123456789, 'Elizabeth', 'F', '1967-05-05', 'Spouse');
 
-insert into departament values ('Research', 5, 333445555, '1988-05-22','1986-05-22'),
-			       ('Administration', 4, 987654321, '1995-01-01','1994-01-01'),
-                               ('Headquarters', 1, 888665555,'1981-06-19','1980-06-19');
+insert into departament values ('Research', 5, '333445555', '1988-05-22','1986-05-22'),
+			       ('Administration', 4, '987654321', '1995-01-01','1994-01-01'),
+                               ('Headquarters', 1, '888665555','1981-06-19','1980-06-19');
 
 insert into dept_locations values (1, 'Houston'),
 				 (4, 'Stafford'),
